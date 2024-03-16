@@ -1,0 +1,19 @@
+.bg {
+    width: 100%;
+}
+
+.bg::after {
+    background-image: url("https://www.chickensmoothie.com/oekaki/image/image.php?id=3899602&size=large&format=auto&rev=1630179831");
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.15;
+    z-index:-1;
+}
+
+.content_bg{
+    opacity: 1;
+}
