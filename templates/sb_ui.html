@@ -15,6 +15,7 @@
         };
     </script>
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/sb.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 
 <body class="bg">
@@ -23,9 +24,11 @@
             <h1 style="font-family:Tahoma">DnD Soundboard (Hee Hoo)</h1>
             <h3 style="font-family:Tahoma">Press and play for funzies</h3>
         </div>
-        <!-- <div style="text-align:center">
-            <button type="button" style="font-size:15px;font-family:Tahoma">Tweak configs</button>
-        </div> -->
+        <div style="text-align:center">
+            <a href="{{ url_for('soundboard_configs') }}">
+                <button type="button" style="font-size:15px;font-family:Tahoma">Tweak configs</button>
+            </a>
+        </div>
         <br>
         <br>
         <div style="text-align:center">
