@@ -1,6 +1,6 @@
 # Soundboard for DnD
 
-This is more or (very much so) less a meme project.
+This is more or ~~less~~ (very much so) a meme project.
 
 ![alt text](banner.png)
 
